@@ -19,6 +19,7 @@ defmodule PhxfolioWeb.Router do
     pipe_through :browser
 
     live "/", MyHomeLive
+    get "/health", HealthController, :health
   end
 
   # Other scopes may use custom stacks.

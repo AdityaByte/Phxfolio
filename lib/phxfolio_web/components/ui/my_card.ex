@@ -8,7 +8,7 @@ defmodule PhxfolioWeb.UI.MyCard do
       Passionate about building reliable backend systems and beautiful frontends. Open to collaborate on open-source and meaningful projects
       """,
       github: "https://github.com/AdityaByte",
-      linkedin: "https://www.linkedin.com/in/aditya-byte"
+      linkedin: "https://www.linkedin.com/in/aditya-pawar-557a56332/"
     }
 
     ~H"""
@@ -19,11 +19,9 @@ defmodule PhxfolioWeb.UI.MyCard do
         <p class="text-lg text-white/80">Full-Stack Developer | Software Engineer</p>
 
         <div class="flex flex-wrap gap-2 mt-2">
-          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🚀 Java</span>
-          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🧠 Spring Boot</span>
-          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">💾 MongoDB</span>
-          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🌐 HTML/CSS</span>
-          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">⚡ Git</span>
+          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🚀 Proficient in Java | Go</span>
+          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🌌 Terminal Dreamer</span>
+          <span class="bg-white/10 px-3 py-1 rounded-full text-sm">🔥 Deployment = Dopamine</span>
           <span class="bg-white/10 px-3 py-1 rounded-full text-sm">📍 India</span>
         </div>
 

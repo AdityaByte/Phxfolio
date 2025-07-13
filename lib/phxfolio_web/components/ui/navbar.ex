@@ -3,7 +3,10 @@ defmodule PhxfolioWeb.UI.Navbar do
 
   def navbar(assigns) do
     ~H"""
-    <nav class=" px-6 py-4 mx-3 lg:mx-0 bg-white/5 backdrop-blur-lg shadow-md text-white border-b border-white/10 sticky top-0 z-50 rounded-lg mt-7 mb-10">
+    <nav
+      class=" px-6 py-4 mx-3 lg:mx-0 bg-white/5 backdrop-blur-lg shadow-md text-white border-b border-white/10 sticky top-0 z-50 rounded-lg mt-7 mb-10"
+      id="navbar"
+    >
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <h1 class="text-2xl font-extrabold tracking-wide">
           Phx<span class="text-blue-400">folio</span>.
@@ -14,6 +17,7 @@ defmodule PhxfolioWeb.UI.Navbar do
           <a href="#skills" class="hover:text-white transition">Skills</a>
           <a href="#projects" class="hover:text-white transition">Projects</a>
           <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#contact" class="hover:text-white transition">Contact</a>
         </div>
 
         <a
